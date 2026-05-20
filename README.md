@@ -66,15 +66,3 @@ Minutes Played (MP) & Games Started: To factor in physical longevity and rotatio
 All-Star / All-NBA Appearances: Categorical indicators that immediately trigger maximum contract scale exceptions.
 Developed as an end-to-end Machine Learning Pipeline for NBA Economic Tier Analysis.
 =
-
-## 📊 Confusion Matrix
-
-![Confusion Matrix](confusion_matrix.png)
-
-## 📈 ROC Curve
-
-![ROC Curve](roc_curve.png)
-
-## 🧠 Feature Importance
-
-![Feature Importance](feature_importance.png)
