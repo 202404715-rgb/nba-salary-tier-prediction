@@ -65,6 +65,8 @@ Points Per Game (PPG) & Player Efficiency Rating (PER): To capture true on-court
 Minutes Played (MP) & Games Started: To factor in physical longevity and rotational importance.
 All-Star / All-NBA Appearances: Categorical indicators that immediately trigger maximum contract scale exceptions.
 Developed as an end-to-end Machine Learning Pipeline for NBA Economic Tier Analysis.
+=
+
 ## 📊 Confusion Matrix
 
 ![Confusion Matrix](confusion_matrix.png)
