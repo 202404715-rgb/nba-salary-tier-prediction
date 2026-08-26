@@ -6,7 +6,7 @@ Instead of predicting the exact salary, the project treats the problem as a **bi
 
 ---
 
-## 🎯 Project Goal
+##  Project Goal
 
 NBA salaries have a wide range, especially because of high-value superstar contracts.
 
@@ -37,7 +37,7 @@ The preprocessing was performed as part of the modeling workflow to reduce the r
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 The main model used in this project is **CatBoost Classifier**.
 
@@ -61,7 +61,7 @@ model_cb = CatBoostClassifier(
 
 ---
 
-## 🔬 Model Validation
+##  Model Validation
 
 The model was evaluated using **5-Fold Stratified Cross-Validation**.
 
@@ -93,7 +93,7 @@ Because the two classes are almost evenly distributed, a random 50/50 baseline w
 
 ---
 
-## 🔎 Feature Importance
+## Feature Importance
 
 The most important features identified by CatBoost were:
 
@@ -117,7 +117,7 @@ Physical features such as **weight and height** had lower importance compared wi
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
 * Player age was the most important feature.
 * Team and college provided meaningful predictive information.
@@ -127,7 +127,7 @@ Physical features such as **weight and height** had lower importance compared wi
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 The model could be improved by adding more information about player performance and career history, such as:
 
@@ -147,7 +147,7 @@ These features could provide a better representation of player value and potenti
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 This project has several limitations:
 
@@ -159,7 +159,7 @@ This project has several limitations:
 
 ---
 
-## 🧪 Project Workflow
+##  Project Workflow
 
 ```text
 Raw NBA Data
@@ -185,7 +185,7 @@ Business & Sports Analytics Insights
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Install Dependencies
 
@@ -203,7 +203,7 @@ pip install pandas numpy scikit-learn catboost matplotlib seaborn jupyter
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 * Python
 * Pandas
@@ -216,7 +216,7 @@ pip install pandas numpy scikit-learn catboost matplotlib seaborn jupyter
 
 ---
 
-## 👤 Author
+## Author
 
 **Habiba Mohamed**
 
@@ -224,7 +224,7 @@ Data Science Student
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates a complete machine learning workflow for predicting NBA salary tiers, from data preparation and feature processing to model training, cross-validation, evaluation, and feature interpretation.
 
